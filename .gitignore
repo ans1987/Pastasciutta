@@ -13,3 +13,11 @@ build/*
 xcuserdata
 profile
 *.moved-aside
+# Ignores
+\.DS_Store
+\.classpath
+\.project
+\.settings
+\.metadata/
+Servers/
+target/

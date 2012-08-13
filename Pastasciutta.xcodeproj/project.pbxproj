@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C20AE12215D908CC00C62AED /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C20AE12115D908CC00C62AED /* icon.png */; };
+		C235EC6815D661A800BC2830 /* Info.xib in Resources */ = {isa = PBXBuildFile; fileRef = C235EC6715D661A800BC2830 /* Info.xib */; };
+		C2A3D99415D4325100FF9BDB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A3D99315D4325100FF9BDB /* Cocoa.framework */; };
+		C2A3D99E15D4325100FF9BDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2A3D99C15D4325100FF9BDB /* InfoPlist.strings */; };
+		C2A3D9A015D4325100FF9BDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A3D99F15D4325100FF9BDB /* main.m */; };
+		C2A3D9A415D4325100FF9BDB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C2A3D9A215D4325100FF9BDB /* Credits.rtf */; };
+		C2A3D9A715D4325100FF9BDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A3D9A615D4325100FF9BDB /* AppDelegate.m */; };
+		C2A3D9AA15D4325200FF9BDB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2A3D9A815D4325200FF9BDB /* MainMenu.xib */; };
+		C2A3D9B215D4325200FF9BDB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A3D9B115D4325200FF9BDB /* SenTestingKit.framework */; };
+		C2A3D9B315D4325200FF9BDB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A3D99315D4325100FF9BDB /* Cocoa.framework */; };
+		C2A3D9BB15D4325200FF9BDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2A3D9B915D4325200FF9BDB /* InfoPlist.strings */; };
+		C2A3D9BE15D4325200FF9BDB /* SaturnusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A3D9BD15D4325200FF9BDB /* SaturnusTests.m */; };
+		C2A3D9C915D4331F00FF9BDB /* Crono.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A3D9C815D4331F00FF9BDB /* Crono.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2A3D9B415D4325200FF9BDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2A3D98615D4325100FF9BDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2A3D98E15D4325100FF9BDB;
+			remoteInfo = Saturnus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C20AE12115D908CC00C62AED /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		C235EC6715D661A800BC2830 /* Info.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Info.xib; sourceTree = "<group>"; };
+		C2A3D98F15D4325100FF9BDB /* Pastasciutta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pastasciutta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A3D99315D4325100FF9BDB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C2A3D99615D4325100FF9BDB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C2A3D99715D4325100FF9BDB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C2A3D99815D4325100FF9BDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2A3D99B15D4325100FF9BDB /* Pastasciutta-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pastasciutta-Info.plist"; sourceTree = "<group>"; };
+		C2A3D99D15D4325100FF9BDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2A3D99F15D4325100FF9BDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2A3D9A115D4325100FF9BDB /* Pastasciutta-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pastasciutta-Prefix.pch"; sourceTree = "<group>"; };
+		C2A3D9A315D4325100FF9BDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C2A3D9A515D4325100FF9BDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2A3D9A615D4325100FF9BDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2A3D9A915D4325200FF9BDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C2A3D9B015D4325200FF9BDB /* PastasciuttaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PastasciuttaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A3D9B115D4325200FF9BDB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C2A3D9B815D4325200FF9BDB /* PastasciuttaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PastasciuttaTests-Info.plist"; sourceTree = "<group>"; };
+		C2A3D9BA15D4325200FF9BDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2A3D9BC15D4325200FF9BDB /* SaturnusTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SaturnusTests.h; sourceTree = "<group>"; };
+		C2A3D9BD15D4325200FF9BDB /* SaturnusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaturnusTests.m; sourceTree = "<group>"; };
+		C2A3D9C715D4331F00FF9BDB /* Crono.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crono.h; sourceTree = "<group>"; };
+		C2A3D9C815D4331F00FF9BDB /* Crono.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Crono.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2A3D98C15D4325100FF9BDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A3D99415D4325100FF9BDB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A3D9AC15D4325200FF9BDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A3D9B215D4325200FF9BDB /* SenTestingKit.framework in Frameworks */,
+				C2A3D9B315D4325200FF9BDB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2A3D98415D4325100FF9BDB = {
+			isa = PBXGroup;
+			children = (
+				C20AE12115D908CC00C62AED /* icon.png */,
+				C2A3D99915D4325100FF9BDB /* Pastasciutta */,
+				C2A3D9B615D4325200FF9BDB /* PastasciuttaTests */,
+				C2A3D99215D4325100FF9BDB /* Frameworks */,
+				C2A3D99015D4325100FF9BDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2A3D99015D4325100FF9BDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2A3D98F15D4325100FF9BDB /* Pastasciutta.app */,
+				C2A3D9B015D4325200FF9BDB /* PastasciuttaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2A3D99215D4325100FF9BDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2A3D99315D4325100FF9BDB /* Cocoa.framework */,
+				C2A3D9B115D4325200FF9BDB /* SenTestingKit.framework */,
+				C2A3D99515D4325100FF9BDB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2A3D99515D4325100FF9BDB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2A3D99615D4325100FF9BDB /* AppKit.framework */,
+				C2A3D99715D4325100FF9BDB /* CoreData.framework */,
+				C2A3D99815D4325100FF9BDB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C2A3D99915D4325100FF9BDB /* Pastasciutta */ = {
+			isa = PBXGroup;
+			children = (
+				C2A3D9A515D4325100FF9BDB /* AppDelegate.h */,
+				C2A3D9A615D4325100FF9BDB /* AppDelegate.m */,
+				C2A3D9A815D4325200FF9BDB /* MainMenu.xib */,
+				C2A3D9C715D4331F00FF9BDB /* Crono.h */,
+				C235EC6715D661A800BC2830 /* Info.xib */,
+				C2A3D9C815D4331F00FF9BDB /* Crono.m */,
+				C2A3D99A15D4325100FF9BDB /* Supporting Files */,
+			);
+			name = Pastasciutta;
+			path = Saturnus;
+			sourceTree = "<group>";
+		};
+		C2A3D99A15D4325100FF9BDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2A3D99B15D4325100FF9BDB /* Pastasciutta-Info.plist */,
+				C2A3D99C15D4325100FF9BDB /* InfoPlist.strings */,
+				C2A3D99F15D4325100FF9BDB /* main.m */,
+				C2A3D9A115D4325100FF9BDB /* Pastasciutta-Prefix.pch */,
+				C2A3D9A215D4325100FF9BDB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2A3D9B615D4325200FF9BDB /* PastasciuttaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2A3D9BC15D4325200FF9BDB /* SaturnusTests.h */,
+				C2A3D9BD15D4325200FF9BDB /* SaturnusTests.m */,
+				C2A3D9B715D4325200FF9BDB /* Supporting Files */,
+			);
+			name = PastasciuttaTests;
+			path = SaturnusTests;
+			sourceTree = "<group>";
+		};
+		C2A3D9B715D4325200FF9BDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2A3D9B815D4325200FF9BDB /* PastasciuttaTests-Info.plist */,
+				C2A3D9B915D4325200FF9BDB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2A3D98E15D4325100FF9BDB /* Pastasciutta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2A3D9C115D4325200FF9BDB /* Build configuration list for PBXNativeTarget "Pastasciutta" */;
+			buildPhases = (
+				C2A3D98B15D4325100FF9BDB /* Sources */,
+				C2A3D98C15D4325100FF9BDB /* Frameworks */,
+				C2A3D98D15D4325100FF9BDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pastasciutta;
+			productName = Saturnus;
+			productReference = C2A3D98F15D4325100FF9BDB /* Pastasciutta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2A3D9AF15D4325200FF9BDB /* PastasciuttaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2A3D9C415D4325200FF9BDB /* Build configuration list for PBXNativeTarget "PastasciuttaTests" */;
+			buildPhases = (
+				C2A3D9AB15D4325200FF9BDB /* Sources */,
+				C2A3D9AC15D4325200FF9BDB /* Frameworks */,
+				C2A3D9AD15D4325200FF9BDB /* Resources */,
+				C2A3D9AE15D4325200FF9BDB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2A3D9B515D4325200FF9BDB /* PBXTargetDependency */,
+			);
+			name = PastasciuttaTests;
+			productName = SaturnusTests;
+			productReference = C2A3D9B015D4325200FF9BDB /* PastasciuttaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2A3D98615D4325100FF9BDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Amador;
+			};
+			buildConfigurationList = C2A3D98915D4325100FF9BDB /* Build configuration list for PBXProject "Pastasciutta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2A3D98415D4325100FF9BDB;
+			productRefGroup = C2A3D99015D4325100FF9BDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2A3D98E15D4325100FF9BDB /* Pastasciutta */,
+				C2A3D9AF15D4325200FF9BDB /* PastasciuttaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2A3D98D15D4325100FF9BDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A3D99E15D4325100FF9BDB /* InfoPlist.strings in Resources */,
+				C2A3D9A415D4325100FF9BDB /* Credits.rtf in Resources */,
+				C2A3D9AA15D4325200FF9BDB /* MainMenu.xib in Resources */,
+				C235EC6815D661A800BC2830 /* Info.xib in Resources */,
+				C20AE12215D908CC00C62AED /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A3D9AD15D4325200FF9BDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A3D9BB15D4325200FF9BDB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C2A3D9AE15D4325200FF9BDB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2A3D98B15D4325100FF9BDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A3D9A015D4325100FF9BDB /* main.m in Sources */,
+				C2A3D9A715D4325100FF9BDB /* AppDelegate.m in Sources */,
+				C2A3D9C915D4331F00FF9BDB /* Crono.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A3D9AB15D4325200FF9BDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A3D9BE15D4325200FF9BDB /* SaturnusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2A3D9B515D4325200FF9BDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2A3D98E15D4325100FF9BDB /* Pastasciutta */;
+			targetProxy = C2A3D9B415D4325200FF9BDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2A3D99C15D4325100FF9BDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2A3D99D15D4325100FF9BDB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C2A3D9A215D4325100FF9BDB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2A3D9A315D4325100FF9BDB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C2A3D9A815D4325200FF9BDB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2A3D9A915D4325200FF9BDB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C2A3D9B915D4325200FF9BDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2A3D9BA15D4325200FF9BDB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2A3D9BF15D4325200FF9BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C2A3D9C015D4325200FF9BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C2A3D9C215D4325200FF9BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Saturnus/Pastasciutta-Prefix.pch";
+				INFOPLIST_FILE = "Saturnus/Pastasciutta-Info.plist";
+				PRODUCT_NAME = Pastasciutta;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C2A3D9C315D4325200FF9BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Saturnus/Pastasciutta-Prefix.pch";
+				INFOPLIST_FILE = "Saturnus/Pastasciutta-Info.plist";
+				PRODUCT_NAME = Pastasciutta;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C2A3D9C515D4325200FF9BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Saturnus.app/Contents/MacOS/Saturnus";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Saturnus/Saturnus-Prefix.pch";
+				INFOPLIST_FILE = "SaturnusTests/PastasciuttaTests-Info.plist";
+				PRODUCT_NAME = PastasciuttaTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C2A3D9C615D4325200FF9BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Saturnus.app/Contents/MacOS/Saturnus";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Saturnus/Saturnus-Prefix.pch";
+				INFOPLIST_FILE = "SaturnusTests/PastasciuttaTests-Info.plist";
+				PRODUCT_NAME = PastasciuttaTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2A3D98915D4325100FF9BDB /* Build configuration list for PBXProject "Pastasciutta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A3D9BF15D4325200FF9BDB /* Debug */,
+				C2A3D9C015D4325200FF9BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2A3D9C115D4325200FF9BDB /* Build configuration list for PBXNativeTarget "Pastasciutta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A3D9C215D4325200FF9BDB /* Debug */,
+				C2A3D9C315D4325200FF9BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2A3D9C415D4325200FF9BDB /* Build configuration list for PBXNativeTarget "PastasciuttaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A3D9C515D4325200FF9BDB /* Debug */,
+				C2A3D9C615D4325200FF9BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2A3D98615D4325100FF9BDB /* Project object */;
+}
