@@ -189,7 +189,7 @@
 				<string key="NSName">_NSMainMenu</string>
 			</object>
 			<object class="NSWindowTemplate" id="972006081">
-				<int key="NSWindowStyleMask">15</int>
+				<int key="NSWindowStyleMask">7</int>
 				<int key="NSWindowBacking">2</int>
 				<string key="NSWindowRect">{{335, 390}, {315, 114}}</string>
 				<int key="NSWTFlags">1954021376</int>
@@ -1125,7 +1125,6 @@
 						<string key="abrirInfo:">id</string>
 						<string key="abrirUrl:">id</string>
 						<string key="continua:">id</string>
-						<string key="openWindow:">id</string>
 						<string key="pause:">id</string>
 						<string key="start:">id</string>
 					</dictionary>
@@ -1140,10 +1139,6 @@
 						</object>
 						<object class="IBActionInfo" key="continua:">
 							<string key="name">continua:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="openWindow:">
-							<string key="name">openWindow:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="pause:">

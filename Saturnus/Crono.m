@@ -82,7 +82,7 @@
 - (IBAction)abrirUrl:(id)sender {
     
     
-   [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://ans.com.es"]];
+   [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://ans.com.es/pastasciutta"]];
     
 }
 
